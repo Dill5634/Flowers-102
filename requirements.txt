@@ -1,0 +1,27 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-image
+torch
+torchvision
+tqdm
+torchviz
+
+
+#To run model from scratch just click run all on the IMLO_Full_Notebook.ipynb or IMLO_Full_Notebook.py file with all the files uploaded I.e flowers_to_name and requirements.txt
+#Close all photos of the data otherwise it won't continue to run
+
+
+#To run just the model --> click run all on the IMLO_ModelTest.ipynb or IMLO_ModelTest.py
+# I will add "####" to the cells required to run and state them below.
+#Check the model file is uploaded: "model_flowers102.pth" as well as the flowers_to_name and requirements.txt files
+#Run the pip install cell or if running the .py file the install requirements function
+#Run all the import cells
+#Run to see if GPU is available 
+#Load in the flowers 102 dataset
+# Run all the cells transforming the data and then using DataLoader.
+#Run the cell defining the model
+#Then run the cell loading the model from the data path after the training loop
+#Run all the cells after that which will run the model on the train, validation and test set.
